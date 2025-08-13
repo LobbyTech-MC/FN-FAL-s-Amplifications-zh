@@ -35,7 +35,7 @@ public class AtrohpyGem extends AbstractGem implements OnDamageHandler, GemUpgra
                 bindGem(slimefunGemItem, itemStackToSocket, player);
             }
         } else {
-            Utils.sendMessage("Invalid item to socket! Gem works on swords and axes only", player);
+            Utils.sendMessage("无效的物品插入！该宝石仅适用于剑和斧。", player);
         }
     }
 

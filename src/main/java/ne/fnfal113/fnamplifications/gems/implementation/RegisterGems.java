@@ -32,9 +32,9 @@ public class RegisterGems {
 
     private static final CustomItemStack anyUpgradedGem = new CustomItemStack(
             Material.EMERALD,
-            "&dAny Upgraded Gem",
+            "&d任何升级过的宝石",
             "",
-            "&eTier 2 to 4 gem"
+            "&e等级 2 到 4 宝石"
     );
 
     public static void setup(SlimefunAddon instance){

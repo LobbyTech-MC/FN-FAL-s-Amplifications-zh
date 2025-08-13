@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - dev
   pull_request:
     branches:
       - main
@@ -21,9 +22,19 @@ jobs:
       uses: actions/setup-java@v1.4.3
       with:
         java-version: 17
-        
+
+    - name: Set Chinese Locale for Maven
+      run: |
+          export LC_ALL=zh_CN.UTF-8
+          export LANG=zh_CN.UTF-8
+          locale  # 输出当前语言环境相关信息，查看是否符合预期
+
     - name: Maven Build
-      run: mvn clean package --file pom.xml
+      run: |
+        mvn clean install
+        mvn -v
+        mvn dependency:tree
+        mvn clean package --file pom.xml
       
     - name: Upload the artifact
       uses: actions/upload-artifact@v3

@@ -34,7 +34,7 @@ public class AvengeGem extends AbstractGem implements OnPlayerDeathHandler, GemU
                 bindGem(slimefunGemItem, itemStackToSocket, player);
             }
         } else {
-            Utils.sendMessage("Invalid item to socket! Gem works on boots only", player);
+            Utils.sendMessage("无效的物品插入！该宝石仅适用于靴子。", player);
         }
     }
 

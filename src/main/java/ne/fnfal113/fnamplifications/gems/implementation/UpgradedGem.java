@@ -68,4 +68,3 @@ public class UpgradedGem extends Gem {
     }
 
 }
-

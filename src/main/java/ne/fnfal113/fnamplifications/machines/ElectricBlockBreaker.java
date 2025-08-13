@@ -345,9 +345,9 @@ public class ElectricBlockBreaker extends SlimefunItem implements InventoryBlock
     }
 
     public final ElectricBlockBreaker setEnergyConsumption(int energyConsumption) {
-        Validate.isTrue(energyConsumption > 0, "The energy consumption must be greater than zero!");
-        Validate.isTrue(energyCapacity > 0, "You must specify the capacity before you can set the consumption amount.");
-        Validate.isTrue(energyConsumption <= energyCapacity, "The energy consumption cannot be higher than the capacity (" + energyCapacity + ')');
+        Validate.isTrue(energyConsumption > 0, "能量消耗必须大于零！");
+        Validate.isTrue(energyCapacity > 0, "在设置消耗量之前，您必须指定容量。");
+        Validate.isTrue(energyConsumption <= energyCapacity, "能量消耗不能高于容量 (" + energyCapacity + ')');
 
         this.energyConsumedPerTick = energyConsumption;
         return this;
@@ -359,13 +359,13 @@ public class ElectricBlockBreaker extends SlimefunItem implements InventoryBlock
     }
 
     public final ElectricBlockBreaker setCapacity(int capacity) {
-        Validate.isTrue(capacity > 0, "The capacity must be greater than zero!");
+        Validate.isTrue(capacity > 0, "容量必须大于零！");
 
         if (getState() == ItemState.UNREGISTERED) {
             this.energyCapacity = capacity;
             return this;
         } else {
-            throw new IllegalStateException("You cannot modify the capacity after the Item was registered.");
+            throw new IllegalStateException("注册后无法修改容量。"); // 如果状态已注册，抛出异常
         }
     }
 
