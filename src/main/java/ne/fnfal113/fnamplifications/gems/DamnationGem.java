@@ -1,17 +1,9 @@
 package ne.fnfal113.fnamplifications.gems;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.gems.handlers.OnRightClickHandler;
-import ne.fnfal113.fnamplifications.gems.implementation.ThrowWeaponTask;
-import ne.fnfal113.fnamplifications.utils.Keys;
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.ArmorStand;
@@ -21,10 +13,17 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.handlers.OnRightClickHandler;
+import ne.fnfal113.fnamplifications.gems.implementation.ThrowWeaponTask;
+import ne.fnfal113.fnamplifications.utils.Keys;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
 
 @SuppressWarnings("ConstantConditions")
 public class DamnationGem extends AbstractGem implements OnRightClickHandler {

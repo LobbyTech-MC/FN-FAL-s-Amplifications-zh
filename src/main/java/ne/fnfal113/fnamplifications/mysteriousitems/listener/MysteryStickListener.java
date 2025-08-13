@@ -1,8 +1,5 @@
 package ne.fnfal113.fnamplifications.mysteriousitems.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import ne.fnfal113.fnamplifications.mysteriousitems.abstracts.AbstractStick;
-
 import org.bukkit.Material;
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.LivingEntity;
@@ -12,9 +9,11 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
-
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.mysteriousitems.abstracts.AbstractStick;
 
 public class MysteryStickListener implements Listener {
 

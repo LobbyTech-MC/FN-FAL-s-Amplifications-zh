@@ -1,16 +1,17 @@
 package ne.fnfal113.fnamplifications.materialgenerators.upgrades.abstracts;
 
+import org.bukkit.block.Block;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import ne.fnfal113.fnamplifications.materialgenerators.implementations.CustomMaterialGenerator;
-import org.bukkit.block.Block;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 /**
- * Superclass for item upgrade type for FN Material Generators
+ * Superclass for item upgrade type for 护生Material Generators
  * @author fnfal113
  */
 public abstract class AbstractUpgrades extends SlimefunItem {

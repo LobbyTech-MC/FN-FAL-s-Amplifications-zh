@@ -1,14 +1,7 @@
 package ne.fnfal113.fnamplifications.gears.abstracts;
 
-import com.google.gson.JsonObject;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.config.ConfigManager;
-import ne.fnfal113.fnamplifications.gears.implementation.GearTask;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.UUID;
+
 import org.bukkit.NamespacedKey;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;
@@ -20,7 +13,16 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.UUID;
+import com.google.gson.JsonObject;
+
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.config.ConfigManager;
+import ne.fnfal113.fnamplifications.gears.implementation.GearTask;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public abstract class AbstractGears extends SlimefunItem {
 
@@ -198,7 +200,7 @@ public abstract class AbstractGears extends SlimefunItem {
 
                 }
 
-                p.sendMessage(Utils.colorTranslator("&6FN 装备属性已更新!"));
+                p.sendMessage(Utils.colorTranslator("&6护生装备属性已更新!"));
             } catch (NullPointerException | IllegalArgumentException e){
                 p.sendMessage(Utils.colorTranslator("&c添加额外装备属性失败, 请联系你的服务器管理员检查并反馈问题"));
                 

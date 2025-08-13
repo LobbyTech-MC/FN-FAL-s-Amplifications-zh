@@ -1,9 +1,8 @@
 package ne.fnfal113.fnamplifications.tools.implementation;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
-import ne.fnfal113.fnamplifications.FNAmplifications;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -15,9 +14,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicBoolean;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import ne.fnfal113.fnamplifications.FNAmplifications;
 
 public class LadderTask {
 

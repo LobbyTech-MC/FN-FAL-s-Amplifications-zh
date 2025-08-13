@@ -1,13 +1,9 @@
 package ne.fnfal113.fnamplifications.mysteriousitems;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedEnchantment;
+import java.util.HashMap;
+import java.util.Map;
 
-import ne.fnfal113.fnamplifications.mysteriousitems.abstracts.AbstractStick;
-import ne.fnfal113.fnamplifications.utils.Keys;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -18,9 +14,13 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.HashMap;
-import java.util.Map;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedEnchantment;
+import ne.fnfal113.fnamplifications.mysteriousitems.abstracts.AbstractStick;
+import ne.fnfal113.fnamplifications.utils.Keys;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class MysteryStick4 extends AbstractStick {
 

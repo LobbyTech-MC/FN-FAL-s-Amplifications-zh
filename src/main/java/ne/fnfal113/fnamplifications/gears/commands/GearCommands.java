@@ -1,9 +1,9 @@
 package ne.fnfal113.fnamplifications.gears.commands;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import java.util.ArrayList;
+import java.util.List;
 
-import ne.fnfal113.fnamplifications.gears.abstracts.AbstractGears;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import javax.annotation.Nonnull;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -14,9 +14,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 
-import javax.annotation.Nonnull;
-import java.util.ArrayList;
-import java.util.List;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.gears.abstracts.AbstractGears;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class GearCommands implements TabExecutor {
 
@@ -26,7 +26,7 @@ public class GearCommands implements TabExecutor {
         if (args.length == 0) {
             Player player = (Player) sender;
 
-            player.sendMessage(Utils.colorTranslator("&d◬◬◬◬◬◬◬◬◬◬ &c&lFN Gear Progress &6◬◬◬◬◬◬◬◬◬◬"));
+            player.sendMessage(Utils.colorTranslator("&d◬◬◬◬◬◬◬◬◬◬ &c&l护生Gear Progress &6◬◬◬◬◬◬◬◬◬◬"));
             for (ItemStack itemStack : player.getInventory().getArmorContents()) {
                 if (itemStack != null) {
                     SlimefunItem item = SlimefunItem.getByItem(itemStack);

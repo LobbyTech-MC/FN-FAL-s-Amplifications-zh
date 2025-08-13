@@ -1,9 +1,9 @@
 package ne.fnfal113.fnamplifications.gems.implementation;
 
-import org.bukkit.NamespacedKey;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import org.bukkit.NamespacedKey;
 
 public enum GemKeysEnum {
 

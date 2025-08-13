@@ -1,12 +1,11 @@
 package ne.fnfal113.fnamplifications.integrations;
 
-import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-
-import net.milkbowl.vault.economy.Economy;
+import java.util.Optional;
 
 import org.bukkit.plugin.RegisteredServiceProvider;
 
-import java.util.Optional;
+import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import net.milkbowl.vault.economy.Economy;
 
 public class VaultIntegration {
 

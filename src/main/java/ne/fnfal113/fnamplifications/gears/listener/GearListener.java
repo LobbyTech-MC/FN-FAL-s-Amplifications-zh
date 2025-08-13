@@ -1,8 +1,6 @@
 package ne.fnfal113.fnamplifications.gears.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-
-import ne.fnfal113.fnamplifications.gears.abstracts.AbstractGears;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.LivingEntity;
@@ -12,7 +10,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.gears.abstracts.AbstractGears;
 
 public class GearListener implements Listener {
 

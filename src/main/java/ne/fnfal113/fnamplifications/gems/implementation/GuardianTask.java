@@ -1,14 +1,13 @@
 package ne.fnfal113.fnamplifications.gems.implementation;
 
-import ne.fnfal113.fnamplifications.utils.Keys;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.block.BlockFace;
-import org.bukkit.entity.Zombie;
-import org.bukkit.entity.Player;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Player;
 import org.bukkit.entity.Projectile;
+import org.bukkit.entity.Zombie;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
@@ -16,6 +15,8 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
+
+import ne.fnfal113.fnamplifications.utils.Keys;
 
 @SuppressWarnings("ConstantConditions")
 public class GuardianTask extends BukkitRunnable {

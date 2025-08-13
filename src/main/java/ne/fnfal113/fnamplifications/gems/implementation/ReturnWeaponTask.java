@@ -1,7 +1,5 @@
 package ne.fnfal113.fnamplifications.gems.implementation;
 
-import ne.fnfal113.fnamplifications.utils.Utils;
-
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.entity.ArmorStand;
@@ -10,6 +8,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
+
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 /**
  * @author FN_FAL113

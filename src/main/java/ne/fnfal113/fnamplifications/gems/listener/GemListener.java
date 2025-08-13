@@ -1,16 +1,10 @@
 package ne.fnfal113.fnamplifications.gems.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.function.Consumer;
 
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.gems.events.GuardianSpawnEvent;
-import ne.fnfal113.fnamplifications.gems.handlers.*;
-import ne.fnfal113.fnamplifications.gems.implementation.GemKeysEnum;
-import ne.fnfal113.fnamplifications.gems.implementation.TargetReasonEnum;
-import ne.fnfal113.fnamplifications.utils.Keys;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import javax.annotation.Nullable;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -41,11 +35,23 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 
-import javax.annotation.Nullable;
-
-import java.util.Objects;
-import java.util.Optional;
-import java.util.function.Consumer;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.events.GuardianSpawnEvent;
+import ne.fnfal113.fnamplifications.gems.handlers.GemHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnBlockBreakHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnDamageHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnGuardianSpawnHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnItemDamageHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnPlayerDeathHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnProjectileDamageHandler;
+import ne.fnfal113.fnamplifications.gems.handlers.OnRightClickHandler;
+import ne.fnfal113.fnamplifications.gems.implementation.GemKeysEnum;
+import ne.fnfal113.fnamplifications.gems.implementation.TargetReasonEnum;
+import ne.fnfal113.fnamplifications.utils.Keys;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class GemListener implements Listener {
 

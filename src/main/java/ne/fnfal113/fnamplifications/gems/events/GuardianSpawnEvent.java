@@ -1,5 +1,7 @@
 package ne.fnfal113.fnamplifications.gems.events;
 
+import javax.annotation.Nonnull;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Zombie;
@@ -7,8 +9,6 @@ import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.Listener;
-
-import javax.annotation.Nonnull;
 
 public class GuardianSpawnEvent extends Event implements Cancellable, Listener {
 

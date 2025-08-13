@@ -1,9 +1,5 @@
 package ne.fnfal113.fnamplifications.materialgenerators.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
-import ne.fnfal113.fnamplifications.materialgenerators.implementations.CustomMaterialGenerator;
-import ne.fnfal113.fnamplifications.materialgenerators.upgrades.abstracts.AbstractUpgrades;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -12,6 +8,11 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import ne.fnfal113.fnamplifications.materialgenerators.implementations.CustomMaterialGenerator;
+import ne.fnfal113.fnamplifications.materialgenerators.upgrades.abstracts.AbstractUpgrades;
 
 public class UpgradesListener implements Listener {
 

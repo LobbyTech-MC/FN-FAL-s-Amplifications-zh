@@ -1,5 +1,7 @@
 package ne.fnfal113.fnamplifications.staffs.implementations;
 
+import javax.annotation.Nullable;
+
 import org.bukkit.NamespacedKey;
 import org.bukkit.Particle;
 import org.bukkit.block.Block;
@@ -9,8 +11,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import javax.annotation.Nullable;
 
 public class AreaOfEffectStaffTask {
 

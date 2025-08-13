@@ -1,14 +1,13 @@
 package ne.fnfal113.fnamplifications.gems.abstracts;
 
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
 import ne.fnfal113.fnamplifications.FNAmplifications;
 import ne.fnfal113.fnamplifications.utils.Utils;
-
-import org.bukkit.inventory.ItemStack;
 
 public abstract class AbstractGemUnbinder extends SlimefunItem {
 

@@ -1,19 +1,19 @@
 package ne.fnfal113.fnamplifications.items;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.machines.ElectricMachineDowngrader;
-import ne.fnfal113.fnamplifications.multiblocks.FnGemAltar;
-import ne.fnfal113.fnamplifications.multiblocks.FnMagicAltar;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.machines.ElectricMachineDowngrader;
+import ne.fnfal113.fnamplifications.multiblocks.FnGemAltar;
+import ne.fnfal113.fnamplifications.multiblocks.FnMagicAltar;
 
 public class FnItemRecipes {
 

@@ -1,19 +1,10 @@
 package ne.fnfal113.fnamplifications.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
-
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.items.FNAmpItems;
-import ne.fnfal113.fnamplifications.tools.implementation.ThrowableItemTask;
-import ne.fnfal113.fnamplifications.utils.compatibility.VersionedMaterial;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
+import java.util.function.Predicate;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -30,11 +21,18 @@ import org.bukkit.util.Consumer;
 import org.bukkit.util.RayTraceResult;
 import org.bukkit.util.Vector;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
-import java.util.function.Predicate;
+import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.items.FNAmpItems;
+import ne.fnfal113.fnamplifications.tools.implementation.ThrowableItemTask;
+import ne.fnfal113.fnamplifications.utils.compatibility.VersionedMaterial;
 
 public class ThrowableTorch extends SlimefunItem {
 

@@ -1,15 +1,8 @@
 package ne.fnfal113.fnamplifications.multiblocks;
 
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import java.util.List;
 
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.items.FNAmpItems;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import javax.annotation.Nonnull;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
@@ -24,8 +17,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
-import java.util.List;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.multiblocks.MultiBlockMachine;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.items.FNAmpItems;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class FnAssemblyStation extends MultiBlockMachine {
 
@@ -33,7 +33,7 @@ public class FnAssemblyStation extends MultiBlockMachine {
             new NamespacedKey(FNAmplifications.getInstance(), "fn_assembly_station"),
             FNAmpItems.FN_ASSEMBLY_STATION,
             "",
-            "&fFN 物品从此而成!"
+            "&f护生物品从此而成!"
     );
 
 

@@ -1,5 +1,12 @@
 package ne.fnfal113.fnamplifications.gems;
 
+import java.util.concurrent.ThreadLocalRandom;
+
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -9,12 +16,6 @@ import ne.fnfal113.fnamplifications.gems.handlers.GemUpgrade;
 import ne.fnfal113.fnamplifications.gems.handlers.OnDamageHandler;
 import ne.fnfal113.fnamplifications.utils.Utils;
 import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import org.bukkit.Material;
-import org.bukkit.entity.Player;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.inventory.ItemStack;
-
-import java.util.concurrent.ThreadLocalRandom;
 
 public class DisarmGem extends AbstractGem implements OnDamageHandler, GemUpgrade {
 

@@ -1,37 +1,36 @@
 package ne.fnfal113.fnamplifications.gems;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.gems.events.GuardianSpawnEvent;
-import ne.fnfal113.fnamplifications.gems.handlers.GemUpgrade;
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.gems.handlers.OnDamageHandler;
-import ne.fnfal113.fnamplifications.utils.Keys;
-import ne.fnfal113.fnamplifications.gems.implementation.GuardianTask;
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.EnderDragon;
 import org.bukkit.entity.Flying;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Phantom;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Projectile;
-import org.bukkit.entity.Phantom;
 import org.bukkit.entity.Zombie;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.scheduler.BukkitTask;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.events.GuardianSpawnEvent;
+import ne.fnfal113.fnamplifications.gems.handlers.GemUpgrade;
+import ne.fnfal113.fnamplifications.gems.handlers.OnDamageHandler;
+import ne.fnfal113.fnamplifications.gems.implementation.GuardianTask;
+import ne.fnfal113.fnamplifications.utils.Keys;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
 
 public class GuardianGem extends AbstractGem implements OnDamageHandler, GemUpgrade {
 

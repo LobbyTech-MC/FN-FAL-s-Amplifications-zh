@@ -1,24 +1,23 @@
 package ne.fnfal113.fnamplifications.gems;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.gems.implementation.ThrowWeaponTask;
-import ne.fnfal113.fnamplifications.utils.Keys;
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import ne.fnfal113.fnamplifications.gems.handlers.OnRightClickHandler;
-import ne.fnfal113.fnamplifications.utils.Utils;
-
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.util.Vector;
+
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.handlers.OnRightClickHandler;
+import ne.fnfal113.fnamplifications.gems.implementation.ThrowWeaponTask;
+import ne.fnfal113.fnamplifications.utils.Keys;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
 
 public class AxeThrowieGem extends AbstractGem implements OnRightClickHandler {
 

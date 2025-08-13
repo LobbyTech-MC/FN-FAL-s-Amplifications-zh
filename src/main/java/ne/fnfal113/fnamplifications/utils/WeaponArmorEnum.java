@@ -1,8 +1,9 @@
 package ne.fnfal113.fnamplifications.utils;
 
+import org.bukkit.Material;
+
 import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import org.bukkit.Material;
 
 /**
  * Enum that contains every vanilla weapon and armors

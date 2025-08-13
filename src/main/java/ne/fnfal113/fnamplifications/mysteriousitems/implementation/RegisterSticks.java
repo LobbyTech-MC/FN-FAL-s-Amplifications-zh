@@ -1,15 +1,24 @@
 package ne.fnfal113.fnamplifications.mysteriousitems.implementation;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
 import ne.fnfal113.fnamplifications.items.FNAmpItems;
 import ne.fnfal113.fnamplifications.multiblocks.FnMysteryStickAltar;
-import ne.fnfal113.fnamplifications.mysteriousitems.*;
-
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick10;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick11;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick2;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick3;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick4;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick5;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick6;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick7;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick8;
+import ne.fnfal113.fnamplifications.mysteriousitems.MysteryStick9;
 
 public class RegisterSticks {
 

@@ -1,5 +1,7 @@
 package ne.fnfal113.fnamplifications.utils;
 
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.PotionMeta;
@@ -8,8 +10,6 @@ import org.bukkit.potion.PotionType;
 
 import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-
-import javax.annotation.ParametersAreNonnullByDefault;
 
 /**
  * A simple potion builder based from the given {@link PotionType}

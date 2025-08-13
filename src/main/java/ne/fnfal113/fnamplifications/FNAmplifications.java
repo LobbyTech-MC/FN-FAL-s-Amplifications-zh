@@ -1,24 +1,22 @@
 package ne.fnfal113.fnamplifications;
 
+import java.util.Objects;
+import java.util.logging.Level;
+
 import javax.annotation.Nonnull;
-
-import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-import io.github.bakedlibs.dough.updater.BlobBuildUpdater;
-
-import ne.fnfal113.fnamplifications.config.ConfigManager;
-import ne.fnfal113.fnamplifications.gears.commands.GearCommands;
-import ne.fnfal113.fnamplifications.gears.runnables.ArmorEquipRunnable;
-import ne.fnfal113.fnamplifications.integrations.VaultIntegration;
-import ne.fnfal113.fnamplifications.test.ShockwaveTest;
-import ne.fnfal113.fnamplifications.items.FNAmpItemSetup;
-import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.Objects;
-import java.util.logging.Level;
+import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import ne.fnfal113.fnamplifications.config.ConfigManager;
+import ne.fnfal113.fnamplifications.gears.commands.GearCommands;
+import ne.fnfal113.fnamplifications.gears.runnables.ArmorEquipRunnable;
+import ne.fnfal113.fnamplifications.integrations.VaultIntegration;
+import ne.fnfal113.fnamplifications.items.FNAmpItemSetup;
+import ne.fnfal113.fnamplifications.test.ShockwaveTest;
+import net.guizhanss.guizhanlibplugin.updater.GuizhanUpdater;
 
 public final class FNAmplifications extends JavaPlugin implements SlimefunAddon {
 
@@ -41,7 +39,7 @@ public final class FNAmplifications extends JavaPlugin implements SlimefunAddon 
         new Metrics(this, 13219);
 
         getLogger().info("************************************************************");
-        getLogger().info("              FN Amplifications - FN 科技                   ");
+        getLogger().info("              护生Amplifications - 护生科技                   ");
         getLogger().info("           作者: FN_FAL113  汉化: lroj,haiman233,SlimefunGuguProject       ");
         getLogger().info("    感谢 Jeff(LiteXpansion) 与 Walshy(Slimefun) 提供的工具包   ");
         getLogger().info("               如有任何问题，请前往问题追踪器汇报                ");

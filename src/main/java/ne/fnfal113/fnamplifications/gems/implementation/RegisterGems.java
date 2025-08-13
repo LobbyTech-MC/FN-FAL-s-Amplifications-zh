@@ -1,5 +1,9 @@
 package ne.fnfal113.fnamplifications.gems.implementation;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.potion.PotionType;
+
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -7,7 +11,42 @@ import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedPotionType;
 import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.gems.*;
+import ne.fnfal113.fnamplifications.gems.AchillesHeelGem;
+import ne.fnfal113.fnamplifications.gems.AdamantineGem;
+import ne.fnfal113.fnamplifications.gems.ArmorImpairGem;
+import ne.fnfal113.fnamplifications.gems.ArrowAvertGem;
+import ne.fnfal113.fnamplifications.gems.AtrohpyGem;
+import ne.fnfal113.fnamplifications.gems.AvengeGem;
+import ne.fnfal113.fnamplifications.gems.AwakenGem;
+import ne.fnfal113.fnamplifications.gems.AxeThrowieGem;
+import ne.fnfal113.fnamplifications.gems.BaneGem;
+import ne.fnfal113.fnamplifications.gems.BerserkGem;
+import ne.fnfal113.fnamplifications.gems.BlindBindGem;
+import ne.fnfal113.fnamplifications.gems.CelerityGem;
+import ne.fnfal113.fnamplifications.gems.DamnationGem;
+import ne.fnfal113.fnamplifications.gems.DeberserkGem;
+import ne.fnfal113.fnamplifications.gems.DeceptionGem;
+import ne.fnfal113.fnamplifications.gems.DecrepitGem;
+import ne.fnfal113.fnamplifications.gems.DisarmGem;
+import ne.fnfal113.fnamplifications.gems.DisarmorGem;
+import ne.fnfal113.fnamplifications.gems.DisruptedGem;
+import ne.fnfal113.fnamplifications.gems.GuardianGem;
+import ne.fnfal113.fnamplifications.gems.HastyGem;
+import ne.fnfal113.fnamplifications.gems.ImpostorGem;
+import ne.fnfal113.fnamplifications.gems.InfernoGem;
+import ne.fnfal113.fnamplifications.gems.LifestealGem;
+import ne.fnfal113.fnamplifications.gems.LootGem;
+import ne.fnfal113.fnamplifications.gems.ParryGem;
+import ne.fnfal113.fnamplifications.gems.PsychokinesisGem;
+import ne.fnfal113.fnamplifications.gems.RetaliateGem;
+import ne.fnfal113.fnamplifications.gems.SedateGem;
+import ne.fnfal113.fnamplifications.gems.ShockwaveGem;
+import ne.fnfal113.fnamplifications.gems.SmokeCriminalGem;
+import ne.fnfal113.fnamplifications.gems.StoutGem;
+import ne.fnfal113.fnamplifications.gems.TelepathyGem;
+import ne.fnfal113.fnamplifications.gems.ThornAwayGem;
+import ne.fnfal113.fnamplifications.gems.ThunderBoltGem;
+import ne.fnfal113.fnamplifications.gems.TriSwordGem;
 import ne.fnfal113.fnamplifications.gems.unbinder.BlemishedUnbindGem;
 import ne.fnfal113.fnamplifications.gems.unbinder.DamagedUnbindGem;
 import ne.fnfal113.fnamplifications.gems.unbinder.FlawlessUnbindGem;
@@ -17,9 +56,6 @@ import ne.fnfal113.fnamplifications.multiblocks.FnGemAltar;
 import ne.fnfal113.fnamplifications.multiblocks.FnGemDowngrader;
 import ne.fnfal113.fnamplifications.multiblocks.FnGemUpgrader;
 import ne.fnfal113.fnamplifications.utils.PotionBuilder;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.potion.PotionType;
 
 public class RegisterGems {
 

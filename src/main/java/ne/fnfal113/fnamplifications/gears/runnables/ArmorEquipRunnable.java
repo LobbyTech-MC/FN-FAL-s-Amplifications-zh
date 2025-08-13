@@ -1,9 +1,5 @@
 package ne.fnfal113.fnamplifications.gears.runnables;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.gears.FnChestPlate;
-import ne.fnfal113.fnamplifications.utils.Keys;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -12,6 +8,11 @@ import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.gears.FnChestPlate;
+import ne.fnfal113.fnamplifications.utils.Keys;
 
 public class ArmorEquipRunnable implements Runnable {
 

@@ -1,9 +1,7 @@
 package ne.fnfal113.fnamplifications.staffs.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import ne.fnfal113.fnamplifications.staffs.abstracts.AbstractStaff;
-import ne.fnfal113.fnamplifications.staffs.handlers.EntityStaffImpl;
-import ne.fnfal113.fnamplifications.utils.Keys;
+import java.util.Objects;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -22,8 +20,10 @@ import org.bukkit.event.vehicle.VehicleExitEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.Objects;
-import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.staffs.abstracts.AbstractStaff;
+import ne.fnfal113.fnamplifications.staffs.handlers.EntityStaffImpl;
+import ne.fnfal113.fnamplifications.utils.Keys;
 
 public class StaffListener implements Listener {
 

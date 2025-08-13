@@ -1,8 +1,11 @@
 package ne.fnfal113.fnamplifications.utils;
 
-import ne.fnfal113.fnamplifications.FNAmplifications;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.List;
+import java.util.Locale;
 
-import net.md_5.bungee.api.ChatColor;
+import javax.annotation.Nonnull;
 
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.LivingEntity;
@@ -10,11 +13,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.util.EulerAngle;
 
-import javax.annotation.Nonnull;
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
-import java.util.List;
-import java.util.Locale;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import net.md_5.bungee.api.ChatColor;
 
 /**
  * utility class for FNAmplifications

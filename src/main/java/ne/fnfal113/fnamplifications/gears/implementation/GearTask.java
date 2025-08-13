@@ -1,9 +1,8 @@
 package ne.fnfal113.fnamplifications.gears.implementation;
 
-import com.google.common.base.Strings;
-
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;
@@ -15,9 +14,10 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import com.google.common.base.Strings;
+
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
 
 public class GearTask {
 

@@ -1,7 +1,6 @@
 package ne.fnfal113.fnamplifications.staffs.implementations;
 
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.Objects;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.Sound;
@@ -11,7 +10,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.Objects;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class StaffTask {
 

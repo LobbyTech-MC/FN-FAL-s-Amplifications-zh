@@ -1,5 +1,8 @@
 package ne.fnfal113.fnamplifications.staffs.implementations;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -7,9 +10,25 @@ import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import ne.fnfal113.fnamplifications.items.FNAmpItems;
 import ne.fnfal113.fnamplifications.multiblocks.FnAssemblyStation;
-import ne.fnfal113.fnamplifications.staffs.*;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
+import ne.fnfal113.fnamplifications.staffs.StaffOfAirStrider;
+import ne.fnfal113.fnamplifications.staffs.StaffOfAwareness;
+import ne.fnfal113.fnamplifications.staffs.StaffOfConfusion;
+import ne.fnfal113.fnamplifications.staffs.StaffOfDeepFreeze;
+import ne.fnfal113.fnamplifications.staffs.StaffOfExplosion;
+import ne.fnfal113.fnamplifications.staffs.StaffOfFangs;
+import ne.fnfal113.fnamplifications.staffs.StaffOfForce;
+import ne.fnfal113.fnamplifications.staffs.StaffOfGravitationalPull;
+import ne.fnfal113.fnamplifications.staffs.StaffOfHealing;
+import ne.fnfal113.fnamplifications.staffs.StaffOfHellFire;
+import ne.fnfal113.fnamplifications.staffs.StaffOfInvisibility;
+import ne.fnfal113.fnamplifications.staffs.StaffOfInvulnerability;
+import ne.fnfal113.fnamplifications.staffs.StaffOfLocomotion;
+import ne.fnfal113.fnamplifications.staffs.StaffOfMinerals;
+import ne.fnfal113.fnamplifications.staffs.StaffOfMuster;
+import ne.fnfal113.fnamplifications.staffs.StaffOfSkulls;
+import ne.fnfal113.fnamplifications.staffs.StaffOfStallion;
+import ne.fnfal113.fnamplifications.staffs.StaffOfTeleportation;
+import ne.fnfal113.fnamplifications.staffs.StaffOfWebs;
 
 public class RegisterStaffs {
 

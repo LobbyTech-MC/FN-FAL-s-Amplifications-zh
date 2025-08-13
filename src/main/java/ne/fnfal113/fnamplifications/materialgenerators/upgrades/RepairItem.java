@@ -1,20 +1,18 @@
 package ne.fnfal113.fnamplifications.materialgenerators.upgrades;
 
+import org.bukkit.block.Block;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
-
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
-
 import ne.fnfal113.fnamplifications.FNAmplifications;
 import ne.fnfal113.fnamplifications.materialgenerators.implementations.CustomMaterialGenerator;
 import ne.fnfal113.fnamplifications.materialgenerators.upgrades.abstracts.AbstractUpgrades;
 import ne.fnfal113.fnamplifications.utils.Utils;
-
-import org.bukkit.block.Block;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 public class RepairItem extends AbstractUpgrades {
 

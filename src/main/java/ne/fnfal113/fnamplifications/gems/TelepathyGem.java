@@ -1,16 +1,7 @@
 package ne.fnfal113.fnamplifications.gems;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
-
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import ne.fnfal113.fnamplifications.gems.handlers.OnBlockBreakHandler;
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.Collection;
+import java.util.Optional;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -18,8 +9,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.Collection;
-import java.util.Optional;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.handlers.OnBlockBreakHandler;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
 
 public class TelepathyGem extends AbstractGem implements OnBlockBreakHandler {
 

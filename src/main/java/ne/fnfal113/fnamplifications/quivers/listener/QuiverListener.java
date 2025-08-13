@@ -1,10 +1,5 @@
 package ne.fnfal113.fnamplifications.quivers.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-
-import ne.fnfal113.fnamplifications.quivers.abstracts.AbstractQuiver;
-import ne.fnfal113.fnamplifications.utils.Utils;
-
 import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -15,6 +10,10 @@ import org.bukkit.event.entity.EntityShootBowEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.quivers.abstracts.AbstractQuiver;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class QuiverListener implements Listener {
 

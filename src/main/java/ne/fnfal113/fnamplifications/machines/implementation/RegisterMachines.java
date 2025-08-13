@@ -1,15 +1,20 @@
 package ne.fnfal113.fnamplifications.machines.implementation;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
 import ne.fnfal113.fnamplifications.items.FNAmpItems;
-import ne.fnfal113.fnamplifications.machines.*;
+import ne.fnfal113.fnamplifications.machines.ElectricBlockBreaker;
+import ne.fnfal113.fnamplifications.machines.ElectricCompressor;
+import ne.fnfal113.fnamplifications.machines.ElectricIngotCondenser;
+import ne.fnfal113.fnamplifications.machines.ElectricJukebox;
+import ne.fnfal113.fnamplifications.machines.ElectricMachineDowngrader;
+import ne.fnfal113.fnamplifications.machines.ElectricRecycler;
+import ne.fnfal113.fnamplifications.machines.ElectricTransformer;
 import ne.fnfal113.fnamplifications.multiblocks.FnAssemblyStation;
-
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 public class RegisterMachines {
 

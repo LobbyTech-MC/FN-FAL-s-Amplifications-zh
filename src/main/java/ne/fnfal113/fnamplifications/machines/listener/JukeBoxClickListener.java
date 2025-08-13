@@ -1,17 +1,14 @@
 package ne.fnfal113.fnamplifications.machines.listener;
 
-import ne.fnfal113.fnamplifications.utils.Utils;
-import ne.fnfal113.fnamplifications.utils.compatibility.VersionedClass;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.compatibility.VersionedClass;
 
 public class JukeBoxClickListener implements Listener {
 

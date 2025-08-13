@@ -1,12 +1,9 @@
 package ne.fnfal113.fnamplifications.tools.implementation;
 
-import com.google.common.collect.Sets;
-
-import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 import org.bukkit.Axis;
 import org.bukkit.Bukkit;
@@ -21,10 +18,12 @@ import org.bukkit.block.data.Orientable;
 import org.bukkit.block.data.type.Slab;
 import org.bukkit.entity.Player;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import com.google.common.collect.Sets;
+
+import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 public class BlockRotatorTask {
 

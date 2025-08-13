@@ -1,11 +1,9 @@
 package ne.fnfal113.fnamplifications.gems.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGemUnbinder;
-import ne.fnfal113.fnamplifications.gems.implementation.GemUnbinderTask;
-import ne.fnfal113.fnamplifications.utils.Utils;
-import ne.fnfal113.fnamplifications.utils.compatibility.VersionedClass;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+import java.util.UUID;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -16,10 +14,12 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
-import java.util.UUID;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGemUnbinder;
+import ne.fnfal113.fnamplifications.gems.implementation.GemUnbinderTask;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.compatibility.VersionedClass;
 
 public class GemUnbinderListener implements Listener {
 

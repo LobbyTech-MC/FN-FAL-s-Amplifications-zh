@@ -1,8 +1,6 @@
 package ne.fnfal113.fnamplifications.tools.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-
-import ne.fnfal113.fnamplifications.tools.ThrowableTorch;
+import java.util.Optional;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -13,7 +11,8 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.Optional;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.tools.ThrowableTorch;
 
 public class ThrowableItemListener implements Listener {
 

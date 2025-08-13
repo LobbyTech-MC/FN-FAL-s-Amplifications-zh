@@ -19,7 +19,7 @@ public class CustomGeneratorMultiblock extends SimpleSlimefunItem<ItemUseHandler
         super(itemGroup, item, RecipeType.MULTIBLOCK, new ItemStack[] {
                 null, null, null,
                 null, new ItemStack(Material.CHEST), null,
-                null, new CustomItemStack(Material.DIAMOND_BLOCK, "任意 FN 材料生成机"), null
+                null, new CustomItemStack(Material.DIAMOND_BLOCK, "任意 护生材料生成机"), null
         });
     }
 

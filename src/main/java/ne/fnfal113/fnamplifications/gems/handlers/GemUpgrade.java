@@ -1,13 +1,14 @@
 package ne.fnfal113.fnamplifications.gems.handlers;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import ne.fnfal113.fnamplifications.gems.implementation.UpgradedGem;
-import ne.fnfal113.fnamplifications.utils.Keys;
+import java.util.Objects;
+
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.Objects;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.gems.implementation.UpgradedGem;
+import ne.fnfal113.fnamplifications.utils.Keys;
 
 /**
  * Serves as the interface for upgradeable gems

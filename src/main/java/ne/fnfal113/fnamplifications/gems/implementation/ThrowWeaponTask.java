@@ -1,9 +1,7 @@
 package ne.fnfal113.fnamplifications.gems.implementation;
 
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.utils.Utils;
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-import ne.fnfal113.fnamplifications.utils.compatibility.VersionedMaterial;
+import java.util.List;
+import java.util.Objects;
 
 import org.bukkit.Location;
 import org.bukkit.Particle;
@@ -20,8 +18,10 @@ import org.bukkit.util.EulerAngle;
 import org.bukkit.util.RayTraceResult;
 import org.bukkit.util.Vector;
 
-import java.util.List;
-import java.util.Objects;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
+import ne.fnfal113.fnamplifications.utils.compatibility.VersionedMaterial;
 
 /**
  * @author FN_FAL113

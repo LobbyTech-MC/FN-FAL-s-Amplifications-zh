@@ -3,7 +3,6 @@ package ne.fnfal113.fnamplifications.items;
 import org.bukkit.plugin.Plugin;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
-
 import ne.fnfal113.fnamplifications.FNAmplifications;
 import ne.fnfal113.fnamplifications.gears.implementation.RegisterGears;
 import ne.fnfal113.fnamplifications.gears.listener.GearListener;
@@ -15,7 +14,13 @@ import ne.fnfal113.fnamplifications.machines.listener.JukeBoxClickListener;
 import ne.fnfal113.fnamplifications.materialgenerators.implementations.RegisterMaterialGeneratorUpgrades;
 import ne.fnfal113.fnamplifications.materialgenerators.implementations.RegisterMaterialGenerators;
 import ne.fnfal113.fnamplifications.materialgenerators.listener.UpgradesListener;
-import ne.fnfal113.fnamplifications.multiblocks.*;
+import ne.fnfal113.fnamplifications.multiblocks.FnAssemblyStation;
+import ne.fnfal113.fnamplifications.multiblocks.FnGemAltar;
+import ne.fnfal113.fnamplifications.multiblocks.FnGemDowngrader;
+import ne.fnfal113.fnamplifications.multiblocks.FnGemUpgrader;
+import ne.fnfal113.fnamplifications.multiblocks.FnMagicAltar;
+import ne.fnfal113.fnamplifications.multiblocks.FnMysteryStickAltar;
+import ne.fnfal113.fnamplifications.multiblocks.FnScrapRecycler;
 import ne.fnfal113.fnamplifications.mysteriousitems.implementation.RegisterSticks;
 import ne.fnfal113.fnamplifications.mysteriousitems.listener.MysteryStickListener;
 import ne.fnfal113.fnamplifications.powergenerators.implementation.RegisterPowerGenerators;

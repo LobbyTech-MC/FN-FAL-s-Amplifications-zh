@@ -1,20 +1,6 @@
 package ne.fnfal113.fnamplifications.gems;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedPotionEffectType;
-import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
-
-import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
-import ne.fnfal113.fnamplifications.gems.handlers.GemUpgrade;
-import ne.fnfal113.fnamplifications.gems.handlers.OnBlockBreakHandler;
-import ne.fnfal113.fnamplifications.utils.Utils;
-import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
-
-import net.md_5.bungee.api.ChatMessageType;
-import net.md_5.bungee.api.chat.TextComponent;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -22,7 +8,19 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 
-import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.utils.compatibility.VersionedPotionEffectType;
+import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
+import ne.fnfal113.fnamplifications.gems.abstracts.AbstractGem;
+import ne.fnfal113.fnamplifications.gems.handlers.GemUpgrade;
+import ne.fnfal113.fnamplifications.gems.handlers.OnBlockBreakHandler;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.WeaponArmorEnum;
+import net.md_5.bungee.api.ChatMessageType;
+import net.md_5.bungee.api.chat.TextComponent;
 
 public class HastyGem extends AbstractGem implements OnBlockBreakHandler, GemUpgrade {
 

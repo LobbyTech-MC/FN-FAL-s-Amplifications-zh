@@ -1,12 +1,9 @@
 package ne.fnfal113.fnamplifications.quivers.implementations;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import java.util.concurrent.ThreadLocalRandom;
 
-import ne.fnfal113.fnamplifications.quivers.abstracts.AbstractQuiver;
-import ne.fnfal113.fnamplifications.utils.Utils;
-import ne.fnfal113.fnamplifications.utils.compatibility.VersionedEnchantmentPlus;
+import javax.annotation.Nullable;
 
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerInteractEvent;
@@ -15,8 +12,10 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
 
-import javax.annotation.Nullable;
-import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.quivers.abstracts.AbstractQuiver;
+import ne.fnfal113.fnamplifications.utils.Utils;
+import ne.fnfal113.fnamplifications.utils.compatibility.VersionedEnchantmentPlus;
 
 // To do: Method Documentation
 public class QuiverTask {

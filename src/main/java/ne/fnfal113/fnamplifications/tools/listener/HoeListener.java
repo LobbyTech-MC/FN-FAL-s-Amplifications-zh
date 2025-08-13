@@ -1,9 +1,5 @@
 package ne.fnfal113.fnamplifications.tools.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-
-import ne.fnfal113.fnamplifications.tools.abstracts.AbstractHoe;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.data.Ageable;
@@ -15,6 +11,9 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.tools.abstracts.AbstractHoe;
 
 public class HoeListener implements Listener {
 
@@ -41,7 +40,7 @@ public class HoeListener implements Listener {
                         ((AbstractHoe) hoe).onLeftClick(player, clickedBlock, itemStack);
                     }
 
-                } // instance of fn item check
+                } // instance of 护生item check
             } // main hand item type check
         } // click type check
     }

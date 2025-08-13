@@ -1,20 +1,19 @@
 package ne.fnfal113.fnamplifications.tools.implementation;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import ne.fnfal113.fnamplifications.items.FNAmpItems;
 import ne.fnfal113.fnamplifications.multiblocks.FnAssemblyStation;
 import ne.fnfal113.fnamplifications.tools.AutoLadder;
+import ne.fnfal113.fnamplifications.tools.BlockRotator;
 import ne.fnfal113.fnamplifications.tools.FnHoe;
 import ne.fnfal113.fnamplifications.tools.FnHoeAutoPlant;
-import ne.fnfal113.fnamplifications.tools.BlockRotator;
 import ne.fnfal113.fnamplifications.tools.OrientPearl;
 import ne.fnfal113.fnamplifications.tools.ThrowableTorch;
-
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 public class RegisterTools {
 

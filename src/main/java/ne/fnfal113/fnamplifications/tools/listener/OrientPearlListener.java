@@ -1,10 +1,6 @@
 package ne.fnfal113.fnamplifications.tools.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-
-import ne.fnfal113.fnamplifications.FNAmplifications;
-import ne.fnfal113.fnamplifications.tools.OrientPearl;
-import ne.fnfal113.fnamplifications.utils.Keys;
+import java.util.Optional;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -17,7 +13,10 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.persistence.PersistentDataType;
 
-import java.util.Optional;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import ne.fnfal113.fnamplifications.FNAmplifications;
+import ne.fnfal113.fnamplifications.tools.OrientPearl;
+import ne.fnfal113.fnamplifications.utils.Keys;
 
 public class OrientPearlListener implements Listener {
 

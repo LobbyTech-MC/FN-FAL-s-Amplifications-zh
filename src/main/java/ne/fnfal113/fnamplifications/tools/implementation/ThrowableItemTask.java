@@ -1,6 +1,6 @@
 package ne.fnfal113.fnamplifications.tools.implementation;
 
-import ne.fnfal113.fnamplifications.utils.Utils;
+import java.util.Objects;
 
 import org.bukkit.Material;
 import org.bukkit.entity.ArmorStand;
@@ -8,11 +8,10 @@ import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
+import org.bukkit.util.Consumer;
 import org.bukkit.util.Vector;
 
-import org.bukkit.util.Consumer;
-
-import java.util.Objects;
+import ne.fnfal113.fnamplifications.utils.Utils;
 
 /**
  * @author FN_FAL113

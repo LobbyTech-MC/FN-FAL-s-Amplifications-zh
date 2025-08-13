@@ -1,5 +1,8 @@
 package ne.fnfal113.fnamplifications.gears.implementation;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -11,8 +14,6 @@ import ne.fnfal113.fnamplifications.gears.FnHelmet;
 import ne.fnfal113.fnamplifications.gears.FnLeggings;
 import ne.fnfal113.fnamplifications.items.FNAmpItems;
 import ne.fnfal113.fnamplifications.multiblocks.FnAssemblyStation;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 public class RegisterGears {
 

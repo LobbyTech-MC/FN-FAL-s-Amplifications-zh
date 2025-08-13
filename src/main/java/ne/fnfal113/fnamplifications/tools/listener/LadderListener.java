@@ -1,8 +1,9 @@
 package ne.fnfal113.fnamplifications.tools.listener;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
-import ne.fnfal113.fnamplifications.tools.AutoLadder;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -13,9 +14,9 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import ne.fnfal113.fnamplifications.tools.AutoLadder;
 
 public class LadderListener implements Listener {
 

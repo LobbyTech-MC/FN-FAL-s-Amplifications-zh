@@ -1,9 +1,9 @@
 package ne.fnfal113.fnamplifications.machines;
 
-import javax.annotation.Nonnull;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -13,10 +13,8 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.AContainer;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecipe;
-
 import ne.fnfal113.fnamplifications.items.FNAmpItems;
 
 public class ElectricCompressor extends AContainer implements RecipeDisplayItem {

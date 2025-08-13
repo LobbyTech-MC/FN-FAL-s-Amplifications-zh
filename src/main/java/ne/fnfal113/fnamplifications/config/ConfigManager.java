@@ -1,15 +1,5 @@
 package ne.fnfal113.fnamplifications.config;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import com.google.gson.JsonParser;
-
-import ne.fnfal113.fnamplifications.FNAmplifications;
-
-import org.bukkit.configuration.InvalidConfigurationException;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,8 +7,18 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.bukkit.configuration.InvalidConfigurationException;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
+
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
+import com.google.gson.JsonParser;
+
+import ne.fnfal113.fnamplifications.FNAmplifications;
+
 /**
- * Main config manager class for FN Amplifications
+ * Main config manager class for 护生Amplifications
  * @author FN_FAL113
  */
 public class ConfigManager {

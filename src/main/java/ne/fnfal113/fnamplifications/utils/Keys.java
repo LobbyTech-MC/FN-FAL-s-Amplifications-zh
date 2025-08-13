@@ -1,7 +1,8 @@
 package ne.fnfal113.fnamplifications.utils;
 
-import ne.fnfal113.fnamplifications.FNAmplifications;
 import org.bukkit.NamespacedKey;
+
+import ne.fnfal113.fnamplifications.FNAmplifications;
 
 public class Keys {
     // Guardian Gem
@@ -31,7 +32,7 @@ public class Keys {
     public static final NamespacedKey UPGRADED_SPECTRAL_ARROWS_ID_KEY = createKey("upgradedspectralarrowid");
     public static final NamespacedKey UPGRADED_SPECTRAL_QUIVER_STATE_KEY = createKey("upgradedspectral_state");
 
-    // FN Gears
+    // 护生Gears
     // Helmet
     public static  final NamespacedKey FN_GEAR_HELMET = createKey("helmet");
     public static  final NamespacedKey FN_GEAR_HELMET_LEVEL = createKey("helmetlevel");

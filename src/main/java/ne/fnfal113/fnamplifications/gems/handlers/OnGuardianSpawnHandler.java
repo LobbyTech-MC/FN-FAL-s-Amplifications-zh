@@ -1,7 +1,8 @@
 package ne.fnfal113.fnamplifications.gems.handlers;
 
-import ne.fnfal113.fnamplifications.gems.events.GuardianSpawnEvent;
 import org.bukkit.inventory.ItemStack;
+
+import ne.fnfal113.fnamplifications.gems.events.GuardianSpawnEvent;
 
 public interface OnGuardianSpawnHandler extends GemHandler {
 
