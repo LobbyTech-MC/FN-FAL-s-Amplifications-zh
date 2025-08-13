@@ -71,7 +71,7 @@ public class FNAmpItems {
             new NamespacedKey(FNAmplifications.getInstance(), "MATERIAL_GENERATORS_UPGRADES"),
             FN_MAIN_GROUP,
             new CustomItemStack(Material.GOLD_BLOCK,
-                    "&eFN材料生成器升级"));
+                    "&e护生材料生成器 强化道具"));
 
     public static final SubItemGroup SOLAR_GENERATORS = new SubItemGroup(
             new NamespacedKey(FNAmplifications.getInstance(), "SOLAR_GENERATORS"),
@@ -563,25 +563,25 @@ public class FNAmpItems {
     public static final SlimefunItemStack FN_MAT_GEN_UPGRADES_REPAIR_ITEM = new SlimefunItemStack(
             "FN_MAT_GEN_UPGRADES_REPAIR_ITEM",
             Material.BLACK_DYE,
-            "&f护生Mat Gen 维修项目",
-            "&6维修或增加耐用性维修或增加耐用性",
+            "&f护生材料生成器 加固外壳",
+            "&6使用后修复或增加材料生成器耐久度",
             "",
             "&e耐久性+20",
             "",
-            "&a右键单击材料生成器",
-            "&d&oFN材料生成器升级"
+            "&a拿在手上右键护生材料生成器使用",
+            "&d&o护生材料生成器 强化道具"
     );
 
     public static final SlimefunItemStack FN_MAT_GEN_UPGRADES_FAST_PRODUCE = new SlimefunItemStack(
             "FN_MAT_GEN_UPGRADES_FAST_PRODUCE",
             Material.YELLOW_DYE,
-            "&fFN快速生产物料",
-            "&6提升生产速度",
+            "&f护生材料生成器 润滑剂",
+            "&6使用后提升材料生成器生产速度",
             "",
             "&e在 30 分钟内 提升 +1.75x 生产速度",
             "",
-            "&a右键单击材料生成器",
-            "&d&oFN材料生成器升级"
+            "&a拿在手上右键护生材料生成器使用",
+            "&d&o护生材料生成器 强化道具"
     );
 
     public static final SlimefunItemStack FN_FAL_GENERATOR_TIER1 = new SlimefunItemStack(
